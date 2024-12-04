@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #b8e7f9, #c4faf9);
+    color: #333;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    color: #53b1c8;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    color: #444;
+  }
+  
+  .hero img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .message {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    position: relative; /* Allows for overlay positioning */
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background-size: cover; /* Ensures the image covers the whole section */
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .message::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.366); /* Semi-transparent black overlay */
+    border-radius: 10px; /* Matches the container's rounded corners */
+    z-index: 1; /* Ensures the overlay is above the background but below the text */
+  }
+  .message h2 {
+    font-size: 2em;
+    color: #ff6f61;
+  }
+  
+  .gallery {
+    margin: 20px 0;
+  }
+  
+  .gallery h2 {
+    font-size: 2em;
+    color: #ff6f61;
+  }
+  
+  .photos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .photos img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  footer {
+    margin-top: 30px;
+    font-size: 1.2em;
+  }
+  
