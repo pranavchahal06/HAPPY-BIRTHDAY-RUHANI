@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #000000, #ff0000);
+    background: linear-gradient(135deg, #b8e7f9, #c4faf9);
     color: #333;
   }
   
@@ -21,7 +21,7 @@ body {
   
   header p {
     font-size: 1.2em;
-    color: #ffffff;
+    color: #444;
   }
   
   .hero img {
@@ -87,5 +87,4 @@ body {
     margin-top: 30px;
     font-size: 1.2em;
   }
-  
   
